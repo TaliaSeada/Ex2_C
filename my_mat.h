@@ -1,12 +1,12 @@
 #ifndef _MY_MAT_H_
     #define _MY_MAT_H_
+    /* will insert values in the matrix*/
     const int n;
-    // insert values to a matrix from the user
-    void insertValues(int[n][n]);
+    int insertValues(int[n][n]);
 
-    // get two nodes to check if there is a path between them
-    int hasPath(int[n][n], int, int);
-
-    // get two nodes to return the shortest path between them
-    int shortestPath(int[n][n], int, int);
-    #endif
+    /* will return if there is path between the nodes */
+    int hasPath(int[n][n],int,int);
+     
+    /* will return shortest path*/
+    int shortestPath(int[n][n],int,int);
+#endif
